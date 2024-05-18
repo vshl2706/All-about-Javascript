@@ -30,3 +30,5 @@ console.log(url.includes("hitesh"))
 
 const gameName1 = new String('hitesh-hc-com')
 console.log(gameName1.split('-')) // This will give the array of strings separated by dash
+
+// Read mdn or ecma javascript documentation
