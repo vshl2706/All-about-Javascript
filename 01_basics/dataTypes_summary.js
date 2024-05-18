@@ -33,3 +33,29 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two types of memory => Stack, Heap
+// Stack is used in Primitive Data Types
+// Heap is used in Non-Primitive Data Types
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+console.log(myYoutubename); //=> hiteshchoudharydotcom
+console.log(anotherName); //=> chaiaurcode
+// In stacks we get a copy of the original content
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+// In heaps we get reference to the original content from the heap memory
+// In heaps jo bhi hum changes krtein hain vo change original content me hota hai 
+
+userTwo.email = "hitesh@google.com"
+console.log(userOne.email) //=> hitesh@google.com
+console.log(userTwo.email) //=> hitesh@google.com
