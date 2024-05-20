@@ -61,9 +61,30 @@ const users = [
 ]
 // console.log(users[4].email)
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser))        // Returns the keys inside an array
-console.log(Object.values(tinderUser))      // Returns the values inside an array
-console.log(Object.entries(tinderUser))     // Returns the Array inside array of different [key value] pairs
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser))        // Returns the keys inside an array
+// console.log(Object.values(tinderUser))      // Returns the values inside an array
+// console.log(Object.entries(tinderUser))     // Returns the Array inside array of different [key value] pairs
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))    // Used to check whether the given property is present in object or not
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))    // Used to check whether the given property is present in object or not
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// De-structuring an object
+
+const course = {
+    coursename: "Js in Hindi",
+    price: "999",
+    courseInstructor: "hitesh choudhary"
+}
+
+const{courseInstructor: instructor} = course
+// console.log(courseInstructor)
+console.log(instructor)
+
+// JSON structure (used in API)
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
