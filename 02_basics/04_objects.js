@@ -70,7 +70,7 @@ const users = [
 
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++
-// De-structuring an object
+// De-structuring of an object
 
 const course = {
     coursename: "Js in Hindi",
@@ -83,6 +83,8 @@ const{courseInstructor: instructor} = course
 console.log(instructor)
 
 // JSON structure (used in API)
+// Just an Intro
+
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
