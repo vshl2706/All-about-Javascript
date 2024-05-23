@@ -24,12 +24,13 @@ for(const key in programming){
 }
 
 // Can we apply for-in loop on maps ??
-const map = new Map()
-map.set("IN", "INDIA")
-map.set("USA", "United states of America")
-map.set("Fr", "France")
-map.set("IN", "India")
+// const map = new Map()
+// map.set("IN", "INDIA")
+// map.set("USA", "United states of America")
+// map.set("Fr", "France")
+// map.set("IN", "India")
 
-for(const key in map){
-    console.log(map[key])
-}
+// for(const key in map){
+//     console.log(key)
+// }
+// Maps are not iterable, that's why we can't apply for loop on maps
