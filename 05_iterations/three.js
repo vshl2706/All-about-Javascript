@@ -29,7 +29,7 @@ for(const [key, value] of map){
 
 // Objects are not iteratable using for of loop, they have different ways to iterate
 const myObject = {
-    "game1": "NFS"
+    "game1": "NFS",
     "game2": "Spiderman"
 }
 for (const [key, value] of myObject) {
