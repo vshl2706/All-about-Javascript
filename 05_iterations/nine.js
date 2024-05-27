@@ -32,3 +32,11 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+// 0 + 1 + 2 + 3 + 4 + 5 +
+const array1 = [1, 2, 3, 4]
+const initialValue = 0     // Defines the inital value of accumulator
+const sumWithInitialValue = 0;
+const sumWithInitial = array1.reduce(
+    (accumulator, currentValue) => accumulator + currentValue, initialValue
+)
+console.log(sumWithInitial)
