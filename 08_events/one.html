@@ -31,17 +31,20 @@
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
-    // document.getElementById('images').addEventListener('click', function(e){
+    // event propagation = false ==> event bubbling ==>  event propagation will go from inside to outside
+    // event propagation = true ==> event capturing ==> event propagation will go from outside to inside
+
+    // document.getElementById('images').addEventListener(65'click', function(e){
     //     console.log("clicked inside the ul");
     // }, false)
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+        // e.stopPropagation()      // By applying stoPropagation event bubble hokr outside pr nhi jaayega
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
+    //     e.preventDefault();      // To stop opening link
     //     e.stopPropagation()
     //     console.log("google clicked");
     // }, false)
