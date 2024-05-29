@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+        const div1 = document.createElement('h1')
+        const div = document.createElement('div')   // Create div element
+        console.log(div)
+        div.className = "main"      // Set class Name
+        div.id = Math.round(Math.random() * 10 + 1)     // Set id of div
+        
+        div.setAttribute("title", "generated title")    // Better because it saves one cycle
+        div.style.backgroundColor = "green"
+        div.style.padding = "12px"
+        // div.innerText = "chai aur code"
+        const addText = document.createTextNode("Chai aur code")
+        div.appendChild(addText)
+
+        // How to attach the above to document
+        document.body.appendChild(div)
+
+</script>
+</html>
