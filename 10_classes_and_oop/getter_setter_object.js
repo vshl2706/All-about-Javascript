@@ -1,5 +1,5 @@
 const User = {
-    _email: 'h@hc.com',
+    _email: 'h@hc.com',     // underscore is used to denote a private 
     _password: "abc",
 
     get email(){
